@@ -5,7 +5,7 @@ RUN addgroup -g 1000 -S appgroup && \
     adduser -u 1000 -S appuser -G appgroup
 
 WORKDIR /app
-COPY application.py .
+COPY app.py .
 
 # изменение владельца
 RUN chown -R appuser:appgroup /app
@@ -15,4 +15,4 @@ USER appuser
 
 EXPOSE 8080
 
-CMD ["python", "application.py"]
+CMD ["python", "app.py"]
