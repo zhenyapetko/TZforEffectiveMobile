@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py~
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+*.log
+.docker/
+docker-compose.override.yml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+*.tmp
+*.bak
+*.orig
